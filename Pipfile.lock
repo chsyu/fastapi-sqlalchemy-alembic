@@ -56,14 +56,6 @@
             "index": "pypi",
             "version": "==0.70.0"
         },
-        "fastapi-sqlalchemy": {
-            "hashes": [
-                "sha256:7a9d44e46cbc73c3f5ee8c444f7e0bcd3d01370a878740abd4cd4d2e900ce9af",
-                "sha256:d3bfc6d9388a73a2c3726bc6bd7764cd82debfa71c16e3991c544b9701f48d96"
-            ],
-            "index": "pypi",
-            "version": "==0.2.1"
-        },
         "greenlet": {
             "hashes": [
                 "sha256:00e44c8afdbe5467e4f7b5851be223be68adb4272f44696ee71fe46b7036a711",
@@ -342,7 +334,7 @@
                 "sha256:fa52534076394af7315306a8701b726a6521b591d95e8f4e5121c82f94790e8d",
                 "sha256:fd421a14edf73cfe01e8f51ed8966294ee3b3db8da921cacc88e497fd6e977af"
             ],
-            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5'",
+            "index": "pypi",
             "version": "==1.4.27"
         },
         "starlette": {

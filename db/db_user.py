@@ -3,6 +3,7 @@ from sqlalchemy.orm.session import Session
 from router.schemas import User as SchemaUser
 from .models import User as ModelUser
 
+
 def create_user(request: SchemaUser, db: Session):
     db_user = ModelUser(
         first_name=request.first_name,

@@ -10,16 +10,18 @@ black = "*"
 
 [packages]
 fastapi = "*"
-fastapi-sqlalchemy = "*"
+sqlalchemy = "*"
 pydantic = "*"
 alembic = "*"
-psycopg2 = "*"
+#psycopg2 = "*"
 uvicorn = "*"
 python-dotenv = "*"
 pyface = "*"
+mysqlclient = "*"
+pymysql = "*"
 
 [requires]
-python_version = "3.10"
+python_version = "3.7"
 
 [pipenv]
 allow_prereleases = true
